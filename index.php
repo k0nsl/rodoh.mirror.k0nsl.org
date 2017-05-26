@@ -21,7 +21,7 @@ if (!version_compare(phpversion(), '5.3.0', '>='))
     die("This software requires PHP version 5.3.0 at least, yours is ".phpversion());
 
 if (!class_exists('SQLite3'))
-    die("This software requires the SQLite3 PHP extension, and it can't be found on this system!");
+    die("This software requires the  SQLite3 PHP extension. Please install it.");
 
 // Config and data file locations
 
