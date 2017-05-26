@@ -25,7 +25,9 @@ This is a very simple tool which replicates articles from another source (e.g bl
 *	The v.0.1 (no database) of VroumVroumBlog was made by Sebsauvage.
 *	The v.0.2 (SQLite) of VroumVroumBlog was made by Bohwaz
 
-Licence: Public Domain
+### Licence ###
+GNU General Public License v3.0
+https://raw.githubusercontent.com/k0nsl/rodoh.mirror.k0nsl.org/master/LICENSE
 
 ### References ###
 *	http://sebsauvage.net/streisand.me/
