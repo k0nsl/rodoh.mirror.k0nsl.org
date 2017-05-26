@@ -1,6 +1,6 @@
 # About
 
-This is a very simple tool which replicates articles from another source (e.g blog or forum). If the source article is removed, or even the whole source website disappears, the articles will remain readable on the mirror. The entire concept is to set up as many mirrors as possible, so that, when an article is published, it is replicated all over the place, making censorship much  more difficult. The code is based on “Autoblog”.
+This is a very simple tool which replicates articles from another source (e.g blog or forum). If the source content is removed, or even the whole source website disappears, the articles will remain readable on the mirror. The entire concept is to set up as many mirrors as possible, so that, when an article is published, it is replicated all over the place, making censorship much  more difficult. The code is based on “Autoblog”.
 
 ### Getting Started ###
 1.  Unpack the zip file on your server
