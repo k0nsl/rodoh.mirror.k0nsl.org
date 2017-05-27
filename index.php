@@ -152,8 +152,8 @@ class VroumVroum_Config
     public $download_media_from = null;
     public $download_media_types = 'jpg,jpeg,png,gif,pdf';
     public $articles_per_page = 10;
-    public $update_interval = 3600;
-    public $update_timeout = 10;
+    public $update_interval = 1800;
+    public $update_timeout = 15;
 
     public function __construct()
     {
