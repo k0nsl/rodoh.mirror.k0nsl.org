@@ -27,7 +27,7 @@ if (!class_exists('SQLite3'))
 
 if (file_exists(__DIR__ . '/config.php'))
 {
-    require_once __DIR__ . '/config.php';
+    require __DIR__ . '/config.php';
 }
 
 if (!defined('ROOT_DIR'))
@@ -832,7 +832,7 @@ if ($vvb->mustUpdate())
 
 if (file_exists(__DIR__ . '/piwik.html'))
 {
-    require_once __DIR__ . '/piwik.html';
+    require __DIR__ . '/piwik.html';
 }
 
 echo '
@@ -840,7 +840,7 @@ echo '
 </body>
 </html>';
 
-// Escaping HTML strings
+// Escape HTML strings
 function escape($str)
 {
     return htmlspecialchars($str, ENT_COMPAT, 'UTF-8', false);
@@ -885,7 +885,7 @@ function get_css()
     .article .title h2 a { color:#000; text-decoration:none; }
     .article .title h2 a:hover { color:#cc3300; }
     .pagination { margin: 0 10%;  padding: 1% 2%; background: #6A6A6A; }
-    .pagination b { font-size: 1.2em; color: #cccc00; }
+    .pagination b { font-size: 1.2em; color: #FF0000; }
     .pagination a { color:#F6F6F6; margin: 0 0.5em; }
     .pagination a:hover { color:#cc3300; }
     .article { margin: 0 10%; padding: 1% 2%; background: #fff; border-bottom: 1px solid #888; }
