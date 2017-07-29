@@ -11,9 +11,10 @@ You can see a live example running at the following URL: http://rodoh.mirror.k0n
 4.  That's all!
 
 ### Requirement ###
-*	HTTP server.
-*	PHP version 5.3 (tested on 5.6.30-0+deb8u1).
-*	SQLite3.
+*	HTTP server (tested on `nginx/1.12.1`).
+*	PHP version 5.3 (tested on `5.6.30-0+deb8u1` and `7.0.21-1~ubuntu14.04.1+deb.sury.org+1`).
+*	SQLite3 (e.g `php7.0-sqlite3`)
+* SimpleXML (e.g `php7.0-xml`)
 
 ### Requirement for source feed ##
 *	Source feed MUST be a valid RSS 2.0, RDF 1.0 or ATOM 1.0 feed.
